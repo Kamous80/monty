@@ -30,7 +30,7 @@ int pint_error(unsigned int line_number)
 
 /**
  * short_stack_error - Prints monty math function error messages
- * 			for stacks/queues smaller than two nodes.
+ * for stacks/queues smaller than two nodes.
  * @line_number: Line number in Monty bytecodes file where error occurred.
  * @op: Operation where the error occurred.
  * Return: (EXIT_FAILURE) always.
@@ -54,7 +54,7 @@ int div_error(unsigned int line_number)
 
 /**
  * pchar_error - Prints pchar error messages for empty stacks
- * 		empty stacks and non-character values.
+ * empty stacks and non-character values.
  * @line_number: Line number in Monty bytecodes file where error occurred.
  * @message: The corresponding error message to print.
  * Return: (EXIT_FAILURE) always.

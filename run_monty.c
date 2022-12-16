@@ -41,7 +41,7 @@ unsigned int token_arr_len(void)
  * @line: A pointer to the line.
  * @delims: A string of delimiter characters.
  * Return: If the line only contains delimiters - 1.
- * 	   Otherwise - 0.
+ * Otherwise - 0.
  */
 int is_empty_line(char *line, char *delims)
 {
